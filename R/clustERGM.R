@@ -1,4 +1,19 @@
 #########################################################################################################
+## Loading the required packages
+require(lda)
+library(Rcpp)
+library(RcppArmadillo)
+library(foreach)
+library(doParallel)
+library(ggplot2)
+library(abind)
+library(reshape)
+library(combinat)
+require(network)
+library(Matrix)
+library(abind)
+
+#########################################################################################################
 ##################################      Static network code      #######################################
 #########################################################################################################
 ## Defining a wrapper function for static undirected density case 
