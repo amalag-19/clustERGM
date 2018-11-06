@@ -25,7 +25,7 @@ Community Detection in Static Networks through ERGMs
 For K=1 case, the output is just the simulated network array.
 
 #########################################################################################################
-# Documentation for estimation/clustering for static undirected function. All other cases are similar. Inputs are:
+#Documentation for estimation/clustering for static undirected function. All other cases are similar. Inputs are:
 1) sim.net: Array of the simulated network adjacency matrices.
 2) nclust: Number of clusers for which the estimation must be performed.
 3) thres: convergence threshold for estimation, the default being 10^(-6).
